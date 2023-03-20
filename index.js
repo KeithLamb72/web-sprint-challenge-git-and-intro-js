@@ -209,10 +209,10 @@ Practice accessing data above by console.log-ing following items:
 
 //(1) Name of the first artist (0th index) in the array
 
-console.log(artists.name[0]);
+console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
-console.log(artists.bio[2]);
+console.log(artists[2].bio);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 (not auto tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -301,11 +301,6 @@ function addArtist(artists, name, years, genre, nationality, bio) {
   return newArtists;
 }
 
-const artists = [
-  {name: "Amedeo Modigliani", years: "1884-1920", genre: "Expressionism", nationality: "Italian", bio: "Lorem ipsum" },
-  { name: "Vasiliy Kandinskiy", years: "1866-1944", genre: "Expressionism", nationality: "Russian", bio: "Lorem ipsum" },
-  { name: "Diego Rivera", years: "1886-1957", genre: "Muralism", nationality: "Mexican", bio: "Lorem ipsum" },
-];
 
 const newArtists = addArtist(
   artists,
